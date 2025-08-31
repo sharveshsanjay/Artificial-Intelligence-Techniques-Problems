@@ -84,7 +84,7 @@ goal_stack_planning()
 # ---------------- Output ---------------- #
 print("\nPlan to achieve goal:")
 for step in actions:
-    print("→", step)
+    print("->", step)  # replaced arrow with ASCII "->"
 
 print("\nFinal State:")
 print("Puppy Position:", tuple(puppy_position))
